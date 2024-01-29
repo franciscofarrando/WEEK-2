@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.img-header{
+    background-image: url(img/campnou.jpeg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+   text-align: center;
+   padding: 40px 10px 40px 10px;
+   row-gap: 100px;
+   
+}
+#title{
+    font-size: 4em;
+    font-weight: bold;
+    
+}
+#menu{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.65);
+    justify-content:space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0px 40px ;
+    border: 2px black solid;
+    align-content: end;     
+}
+footer{
+    display: flex;
+    grid-column: auto;
+}
