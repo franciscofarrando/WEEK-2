@@ -1,0 +1,18 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+section{
+width: 300px;
+border: solid;
+padding: 2px;
+gap: 2px;
+    
+}
+article{
+    width: 50%;
+}
+aside{
+    width: 20%
+}
