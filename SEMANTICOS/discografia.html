@@ -1,0 +1,77 @@
+<!-- En base al contenido de la pagina web que estas creando, usa los divs semanticos para ordenar 
+y estilizar la pagina: main, header, nav, section, article, aside, footer. Prueba a aplicar diferentes estilos a cada uno, 
+y prueba la opcion BORDER (CSS)EJERCICIO DE ANCLAJES
+una vez tengas hecho lo anterior, crea un men{u en la parte superior que te lleve a cada seccion 
+(en este caso, podria ser, ir a cada cantante). Y dentro de cada seccion, poner un enlace de ‘ir al indice’.
++EXTRA: crear una tabla de p.ej. un cantante: 5 albumes y años
++EXTRA: usar la etiqueta <span> -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>DIV SEMÁNTICOS</title>
+    </head>
+    <body>
+        <header>
+            <div class="titleHeader">
+                <div class="logo"><img src="img/logo.png" alt="Logo lengua"
+                        width="50%"></div>
+                <div class="slogan">La mejor banda inglesa de los siglos XX y
+                    XXI"</div>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a>Discografia</a>
+
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <h2 style="font-size: 3em;">DISCOGRAFIA</h2>
+
+                <table2>
+                    <tr>
+                        <th>Disco</th>
+                        <th>Fecha de Lanzamiento</th>
+                        <th>Título</th>
+
+                    </tr>
+                    <tr>
+                        <td><img src="img/discos/1.jpg" alt></td>
+                        <td>16 de abril de 1964</td>
+                        <td>The Rolling Stones</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/discos/2.jpeg" alt></td>
+                        <td>30 de julio de 1965</td>
+                        <td>Out of Our Heads</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/discos/3.jpeg" alt></td>
+                        <td>20 de junio de 1966</td>
+                        <td>After Match</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/discos/4.jpeg" alt></td>
+                        <td>6 de diciembre de 1968</td>
+                        <td>Beggars Banquet</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/discos/5.jpeg" alt></td>
+                        <td>5 de diciembre de 1969</td>
+                        <td>Let It Bleed</td>
+                    </tr>
+                </table2>
+
+            </div>
+        </main>
+        <footer>
+            <p>Conocelos:</p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO19s0CZ?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        </footer>
+
+    </body>
+</html>
