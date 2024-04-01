@@ -4,6 +4,9 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+body{
+    background-color: rgb(233, 234, 234);
+}
 .img-header{
     background-image: url(img/campnou.jpeg);
     height: 200px;
@@ -12,26 +15,41 @@
     background-position: center;
 }
 header{
-   text-align: center;
-   padding: 40px 10px 40px 10px;
-   row-gap: 100px;
+margin: 10px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: space-between;
+   
    
 }
+
+
 #title{
     font-size: 4em;
     font-weight: bold;
     
 }
 #menu{
+    width: 100vw;
     display: flex;
+    flex-wrap: wrap;
     background-color: rgba(255, 255, 255, 0.65);
-    justify-content:space-between;
     height: 50px;
     align-items: center;
     padding: 0px 40px ;
     border: 2px black solid;
-    align-content: end;     
+    justify-content: space-around;
+
+        
 }
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.518);
+    font-size: x-large;
+    font-weight: bolder;}
+
 main{
     display: flex;
     flex-wrap: wrap;
@@ -48,16 +66,18 @@ main{
     flex-direction: column;
     gap: 20px;
     border:3px solid black;
+    background-color: white;
    
 }
 .subtitle{
     height: 70px;
-    background-color: rgb(216, 215, 215);
+    width: 40vw;
+    background-color: rgb(194, 194, 194);
     margin: -15px;
     padding: 15px;
     display: flex;
     align-items: center;
-    z-index: -1;
+    
 }
 .img_1{
     width: 600px;
@@ -100,4 +120,11 @@ main{
     background-image: url(img/inter\ 2.jpg);
     background-size: contain;
     background-position: center;
+}
+footer{
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
