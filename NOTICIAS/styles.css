@@ -32,7 +32,72 @@ header{
     border: 2px black solid;
     align-content: end;     
 }
-footer{
+main{
     display: flex;
-    grid-column: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.info{
+    width: 40vw;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    border:3px solid black;
+   
+}
+.subtitle{
+    height: 70px;
+    background-color: rgb(216, 215, 215);
+    margin: -15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    z-index: -1;
+}
+.img_1{
+    width: 600px;
+    height: 250px;
+    background-image: url(img/locales.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.img_2{
+    width: 600px;
+    height: 250px;
+    background-image: url(img/locales2.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.img_3{
+    width: 600px;
+    height: 250px;
+    background-image: url(img/nacionales1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img_4{
+    width: 600px;
+    height: 250px;
+    background-image: url(img/nacionales2.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.img_5{
+    width: 600px;
+    height: 250px;
+    background-image: url(img/internacionales.jpg);
+    background-size: contain;
+    background-position: center;
+}
+.img_6{
+    width: 600px;
+    height: 250px;
+    background-image: url(img/inter\ 2.jpg);
+    background-size: contain;
+    background-position: center;
 }
